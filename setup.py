@@ -4,8 +4,10 @@ from pyclipmgr import copy, paste
 setup(
     name='pyclipmgr',
     packages=find_packages(),
-    scripts=['pyclipmgr.py'],
+    scripts=['__init__.py'],
     version='3.0.0',
+    include_package_data=True,
+    package_data={'': ['bin/*']},
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     author='sudo man',

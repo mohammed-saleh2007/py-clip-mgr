@@ -7,7 +7,7 @@
 
 -  I didn't test it on windows and macos
 
-- for linux users! you need to install `xclip` if you use xorg or `wl-clipboard` if you use wayland from your package manager
+- ~~for linux users! you need to install `xclip` if you use xorg or `wl-clipboard` if you use wayland from your package manager~~ Now! you do not need to do that. I did it for you by providing the requierd binaries from this packages.
 
 ## How to install?
 
@@ -32,9 +32,14 @@ import pyclipmgr
 pyclipmgr.copy("Some Text")
 ```
 
-- to paste from clipboard, this will print clipboard content in terminal
+- to paste from clipboard, this will return the clipboard content
 ```
 pyclipmgr.paste()
+```
+
+- to print them in terminal
+```
+print(pyclipmgr.paste())
 ```
 
 ~~- you can use it in your (console/terminal)~~

@@ -15,7 +15,7 @@
 ```
 git clone https://github.com/mohammed-saleh2007/py-clip-mgr
 ```
-- you can also use pip to install it (recommended)
+- you can also use pip [Project In PyPi here](https://pypi.org/project/pyclipmgr/) to install it (recommended)
 ```
 pip install pyclipmgr
 ```

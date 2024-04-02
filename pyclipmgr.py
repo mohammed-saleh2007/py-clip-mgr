@@ -13,7 +13,7 @@ def copy(text):
             os.system(wlcopy + " " + text)
 
         else:
-            subprocess.run([xclip, "-selection", "clipboard"], input=text, text=True)
+            subprocess.run([xclip, "-selection", "clipboard"], input=text, text=True, check=True)
 
     elif platform.system() == "Darwin":
         os.system(f'echo "{text}" | pbcopy')
@@ -35,7 +35,7 @@ def paste():
             text = run_command(wlpaste)
 
         else:
-            text = subprocess.run([xclip, "-o", "-selection", "clipboard"])
+            text = subprocess.run([xclip, "-o", "-selection", "clipboard"], check=True)
 
     elif platform.system() == "Darwin":
         text = run_command('pbpaste')

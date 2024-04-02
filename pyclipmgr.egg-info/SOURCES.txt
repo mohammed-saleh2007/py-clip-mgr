@@ -1,9 +1,15 @@
 LICENSE
 MANIFEST.in
 README.md
-__init__.py
+pyclipmgr.py
 setup.py
+pyclipmgr/__init__.py
+pyclipmgr/pyclipmgr.py
 pyclipmgr.egg-info/PKG-INFO
 pyclipmgr.egg-info/SOURCES.txt
 pyclipmgr.egg-info/dependency_links.txt
 pyclipmgr.egg-info/top_level.txt
+pyclipmgr/bin/wl-copy
+pyclipmgr/bin/wl-paste
+pyclipmgr/bin/xclip
+test/test.py

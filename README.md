@@ -24,7 +24,7 @@ pip install pyclipmgr
 
 - import the lib in your file 
 ```
-import pyclipmgr
+from pyclipmgr import pyclipmgr
 ```
 
 - to copy some text

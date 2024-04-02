@@ -2,11 +2,11 @@ from setuptools import setup, find_packages
 
 setup(
     name='pyclipmgr',
-    packages=find_packages(),
-    scripts=['__init__.py'],
-    version='4.0.0',
+    packages=['pyclipmgr'],
+    scripts=['pyclipmgr.py'],
+    version='5.0.2',
     include_package_data=True,
-    package_data={'': ['bin/*']},
+    package_data={'': ['./bin/*']},
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     author='sudo man',

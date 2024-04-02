@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: pyclipmgr
-Version: 4.0.0
+Version: 5.0.2
 Summary: this lib check for your machine's platform and use system commands to contact with clipboard (copy or paste) in python
 Home-page: https://github.com/mohammed-saleh2007/py-clip-mgr
 Author: sudo man
@@ -34,7 +34,7 @@ pip install pyclipmgr
 
 - import the lib in your file 
 ```
-import pyclipmgr
+from pyclipmgr import pyclipmgr
 ```
 
 - to copy some text

@@ -1,5 +1,7 @@
+LICENSE
+MANIFEST.in
 README.md
-pyclipmgr.py
+__init__.py
 setup.py
 pyclipmgr.egg-info/PKG-INFO
 pyclipmgr.egg-info/SOURCES.txt

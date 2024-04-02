@@ -3,7 +3,7 @@
 ## Features:
 - this lib check for your machine's platform and use system commands to contact with clipboard (copy or paste) in python
 
-- this script works with `linux ( XORG or Wayland), Windows and Macos`
+- this script works with `linux` `(XORG or Wayland)`, `Windows` and `Macos`
 
 -  I didn't test it on windows and macos
 

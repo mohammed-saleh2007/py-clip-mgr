@@ -1,0 +1,7 @@
+README.md
+pyclipmgr.py
+setup.py
+pyclipmgr.egg-info/PKG-INFO
+pyclipmgr.egg-info/SOURCES.txt
+pyclipmgr.egg-info/dependency_links.txt
+pyclipmgr.egg-info/top_level.txt
